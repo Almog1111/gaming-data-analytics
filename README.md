@@ -123,7 +123,7 @@ A business intelligence dashboard was created to present player counts, recorded
 
 ### AI-Assisted Interactive Dashboard
 
-[Open the Interactive Analytics Dashboard](dashboards/Mobile%20Game%20In-App%20Purchases%20%E2%80%94%20Analytics%20Dashboard.html)
+[Open the Interactive Analytics Dashboard](https://almog1111.github.io/gaming-data-analytics/dashboards/Mobile%20Game%20In-App%20Purchases%20%E2%80%94%20Analytics%20Dashboard.html)
 
 Claude AI was used to generate an additional interactive dashboard based on the original dataset.
 
@@ -137,7 +137,7 @@ A separate natural-language request was used to generate an interactive analysis
 
 The resulting analysis includes interactive charts, a summary table, descriptive statistical comparisons, and business interpretation.
 
-[View the Interactive Device Analysis](dashboards/Device%20Type%20vs%20Recorded%20Spending%20%E2%80%94%20Ad-hoc%20Analysis.html)
+[View the Interactive Device Analysis](https://almog1111.github.io/gaming-data-analytics/dashboards/Device%20Type%20vs%20Recorded%20Spending%20%E2%80%94%20Ad-hoc%20Analysis.html)
 
 The device analysis found higher average recorded spending for iOS players than Android players, but the difference was not statistically conclusive in the reported tests.
 
