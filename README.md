@@ -8,6 +8,26 @@ The analysis covers 3,024 player records and combines Python-based exploratory d
 
 The project was developed as part of a Junior Data Analyst portfolio.
 
+## Live Interactive Dashboards
+
+**Explore the dashboards directly in your browser — no downloads or installations required.**
+
+### 1. Mobile Game In-App Purchases — Analytics Dashboard
+
+[▶ Open Live Analytics Dashboard](https://almog1111.github.io/gaming-data-analytics/dashboards/Mobile%20Game%20In-App%20Purchases%20%E2%80%94%20Analytics%20Dashboard.html)
+
+Explore recorded revenue, player spending segments, age groups, game genres, countries, engagement metrics, and data limitations through interactive charts and filters.
+
+### 2. Device Type vs Recorded Spending — Ad-hoc Analysis
+
+[▶ Open Live Device Analysis](https://almog1111.github.io/gaming-data-analytics/dashboards/Device%20Type%20vs%20Recorded%20Spending%20%E2%80%94%20Ad-hoc%20Analysis.html)
+
+Compare recorded spending across device types and spending segments using interactive visualizations and descriptive statistical comparisons.
+
+**[Browse the dashboards folder](https://github.com/Almog1111/gaming-data-analytics/tree/main/dashboards)** for the dashboard files and their launch links.
+
+> **Note:** GitHub displays HTML files as source code. Use the live dashboard links above to open the interactive versions.
+
 ## Business Objectives
 
 The project focuses on five business questions:
@@ -31,20 +51,20 @@ An additional AI-assisted analysis explores recorded spending differences betwee
 
 ## Dataset
 
-The dataset contains 3,024 player records and 13 original columns.
+The dataset contains **3,024 player records and 13 original columns**.
 
 The available information includes:
 
-- Player demographics: age, gender, and country.
-- Gaming characteristics: device type and game genre.
-- Engagement metrics: session count and average session length.
-- Spending information: spending segment, recorded purchase amount, payment method, and purchase-related dates.
+- **Player demographics:** age, gender, and country.
+- **Gaming characteristics:** device type and game genre.
+- **Engagement metrics:** session count and average session length.
+- **Spending information:** spending segment, recorded purchase amount, payment method, and purchase-related dates.
 
-Dataset source: [Mobile Game In-App Purchases Dataset 2025](https://www.kaggle.com/datasets/pratyushpuri/mobile-game-in-app-purchases-dataset-2025)
+**Dataset source:** Mobile Game In-App Purchases Dataset 2025
 
 **License:** CC0 1.0 Universal (Public Domain).
 
-Dataset author: Pratyush Puri (Kaggle).
+**Dataset author:** Pratyush Puri (Kaggle).
 
 The dataset's collection period, the exact definition of the purchase amount, and the criteria used to assign spending segments have not been verified.
 
@@ -59,7 +79,7 @@ The analysis included:
 - Separating total player counts from counts of players with recorded purchase amounts.
 - Documenting data limitations before interpreting the results.
 
-There are 136 players with missing purchase-related information: 111 Minnows, 20 Dolphins, and 5 Whales.
+There are **136 players with missing purchase-related information: 111 Minnows, 20 Dolphins, and 5 Whales**.
 
 Missing purchase amounts are not assumed to represent zero spending.
 
@@ -73,17 +93,17 @@ The analysis uses grouped aggregations, comparisons, summary statistics, and vis
 
 ### 1. Revenue Concentration
 
-Whales represent 68 of the 3,024 players, approximately 2.25% of the dataset. Of these, 63 have recorded purchase amounts.
+Whales represent **68 of the 3,024 players**, approximately **2.25%** of the dataset. Of these, 63 have recorded purchase amounts.
 
-The Whale segment accounts for approximately 59.3% of total recorded revenue.
+The Whale segment accounts for approximately **59.3% of total recorded revenue**.
 
 **Business implication:** Recorded revenue is highly concentrated in a small player segment. Retention initiatives for high-value players may be worth evaluating, although actual retention outcomes cannot be determined from this dataset.
 
 ### 2. Revenue by Age Group
 
-Dolphin players aged 25–44 account for USD 49,734.82, approximately 51.65% of recorded Dolphin revenue.
+Dolphin players aged 25–44 account for **USD 49,734.82**, approximately **51.65%** of recorded Dolphin revenue.
 
-However, this largely reflects the number of players in these age groups. Dolphins aged 45–54 have the highest average recorded purchase amount among Dolphins with known purchase amounts, at USD 261.35.
+However, this largely reflects the number of players in these age groups. Dolphins aged 45–54 have the highest average recorded purchase amount among Dolphins with known purchase amounts, at **USD 261.35**.
 
 **Business implication:** Marketing decisions should consider both audience size and spending per player rather than relying on total revenue alone.
 
@@ -91,7 +111,7 @@ However, this largely reflects the number of players in these age groups. Dolphi
 
 Racing, Battle Royale, and Strategy generate the highest recorded revenue among the 15 game genres.
 
-Their Whale player rates are approximately 4.19%, 3.70%, and 4.04%, compared with approximately 2.25% across the full dataset.
+Their Whale player rates are approximately **4.19%, 3.70%, and 4.04%**, compared with approximately **2.25%** across the full dataset.
 
 **Business implication:** These differences warrant further investigation, but they do not establish that game genre causes higher spending.
 
@@ -99,15 +119,15 @@ Their Whale player rates are approximately 4.19%, 3.70%, and 4.04%, compared wit
 
 Several countries have a high share of recorded revenue generated by Whale players.
 
-South Korea, Canada, Italy, Denmark, and Afghanistan show Whale revenue shares ranging from approximately 69% to 80%.
+South Korea, Canada, Italy, Denmark, and Afghanistan show Whale revenue shares ranging from approximately **69% to 80%**.
 
 **Business implication:** Revenue concentration within a small number of players should be considered when evaluating country-level performance.
 
 ### 5. Engagement and Spending
 
-Whales average approximately 10.93 sessions, compared with 10.12 for Dolphins and 10.04 for Minnows.
+Whales average approximately **10.93 sessions**, compared with **10.12 for Dolphins** and **10.04 for Minnows**.
 
-Average session length is approximately 17.93 for Whales, 20.04 for Dolphins, and 20.14 for Minnows.
+Average session length is approximately **17.93 for Whales**, **20.04 for Dolphins**, and **20.14 for Minnows**.
 
 Within-group variation is substantial relative to these differences.
 
@@ -119,11 +139,13 @@ Within-group variation is substantial relative to these differences.
 
 A business intelligence dashboard was created to present player counts, recorded revenue, segment distribution, game genre performance, and age-group comparisons.
 
-**Project file:** `PowerBI_Dashboard.pbix`
+**Project file:** [PowerBI_Dashboard.pbix](PowerBI_Dashboard.pbix)
+
+This file requires Power BI Desktop to open. It cannot be previewed interactively on GitHub.
 
 ### AI-Assisted Interactive Dashboard
 
-[Open the Interactive Analytics Dashboard](https://almog1111.github.io/gaming-data-analytics/dashboards/Mobile%20Game%20In-App%20Purchases%20%E2%80%94%20Analytics%20Dashboard.html)
+[▶ Open the Interactive Analytics Dashboard](https://almog1111.github.io/gaming-data-analytics/dashboards/Mobile%20Game%20In-App%20Purchases%20%E2%80%94%20Analytics%20Dashboard.html)
 
 Claude AI was used to generate an additional interactive dashboard based on the original dataset.
 
@@ -137,7 +159,7 @@ A separate natural-language request was used to generate an interactive analysis
 
 The resulting analysis includes interactive charts, a summary table, descriptive statistical comparisons, and business interpretation.
 
-[View the Interactive Device Analysis](https://almog1111.github.io/gaming-data-analytics/dashboards/Device%20Type%20vs%20Recorded%20Spending%20%E2%80%94%20Ad-hoc%20Analysis.html)
+[▶ View the Interactive Device Analysis](https://almog1111.github.io/gaming-data-analytics/dashboards/Device%20Type%20vs%20Recorded%20Spending%20%E2%80%94%20Ad-hoc%20Analysis.html)
 
 The device analysis found higher average recorded spending for iOS players than Android players, but the difference was not statistically conclusive in the reported tests.
 
@@ -145,13 +167,12 @@ AI-generated outputs were reviewed critically rather than treated as automatical
 
 ## Project Structure
 
-Project structure:
-
 ```text
 Gaming-Data-Analytics/
 ├── data/
 │   └── mobile_game_inapp_purchases.csv
 ├── dashboards/
+│   ├── README.md
 │   ├── Mobile Game In-App Purchases — Analytics Dashboard.html
 │   └── Device Type vs Recorded Spending — Ad-hoc Analysis.html
 ├── Gaming_Analytics_Final.ipynb
@@ -160,7 +181,6 @@ Gaming-Data-Analytics/
 ├── README.md
 └── requirements.txt
 ```
-
 
 ## How to Run the Analysis
 
@@ -173,13 +193,13 @@ Gaming-Data-Analytics/
 
 The notebook uses the following relative dataset path:
 
-```python
+```text
 data/mobile_game_inapp_purchases.csv
 ```
 
 The Power BI dashboard can be opened separately in Power BI Desktop.
 
-The Claude interactive analysis is accessible through the provided link, subject to the availability and sharing settings of the artifact.
+The two HTML dashboards are published through GitHub Pages and can be opened directly using the live links above, without installing additional software.
 
 ## Data Limitations
 
@@ -203,4 +223,4 @@ This would provide additional experience in AI-assisted analytics, application i
 
 Core analysis and dashboard development are complete.
 
-Final repository preparation, documentation checks, and publication remain separate steps.
+The repository includes the analytical notebook, dataset, Power BI project file, documentation, and two live interactive HTML dashboards published through GitHub Pages.
